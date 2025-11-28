@@ -1,43 +1,49 @@
 # Multi Tool v1 🔧
 
-![Python Badge](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)
 ![License](https://img.shields.io/badge/License-MIT-green)
-![Status](https://img.shields.io/badge/Project-Active-success)
+![Status](https://img.shields.io/badge/Status-Active-success)
 ![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey)
 
-یک ابزار چندکاره ساده و کاربردی که سه قابلیت کاربردی ارائه می‌دهد:
+A simple multi-tool Python script that provides IP lookup, webhook sending, and hardware serial display functionality for Windows.
 
 ---
 
-## ✨ قابلیت‌ها
+## 🚀 Features
 
-### 🔍 1. IP Lookup  
-- نمایش اطلاعات کامل IP  
-- شامل Country, City, Region, Timezone, ISP  
-- استفاده از API وب‌سایت ip-api
-
----
-
-### 📩 2. Webhook Sender  
-- ارسال پیام به Webhook (مثل Discord)  
-- پشتیبانی از:
-  - Username
-  - Message content
+### 🔍 IP Lookup
+- Fetches detailed information about an IP address  
+- Displays:
+  - Status  
+  - Country  
+  - City  
+  - Region  
+  - Timezone  
+  - ISP  
+- Uses `ip-api.com` API
 
 ---
 
-### 🧬 3. Show SDID (سریال سخت‌افزار)  
-- نمایش شماره سریال:
-  - CPU  
-  - Disk  
-  - Baseboard  
-- فقط روی ویندوز کار می‌کند (WMIC)
+### 📩 Webhook Sender
+- Send custom messages to a webhook URL  
+- Supports:
+  - Custom username
+  - Message content  
+- Works with Discord and similar services
 
 ---
 
-## 📦 نصب و اجرا
+### 🧬 Hardware Serial Viewer (SDID)
+Displays system hardware serial numbers (Windows only):
+- CPU Serial
+- Disk Drive Serial
+- Baseboard Serial
 
-### 1. کلون یا دانلود پروژه:
+---
+
+## 📦 Installation
+
+### 1. Clone the repository
 ```bash
 git clone https://github.com/YourUserName/Multi-Tool.git
 cd Multi-Tool
